@@ -16,6 +16,7 @@ body{
     align-items: center;
 }
 
+
 .menu.stripe .img.logo {
     height: 30px;
 }
@@ -37,6 +38,36 @@ body{
     height: 580px;
     padding-top: 47px;
     margin-bottom: 10px;
+}
+
+.main.container .watch-wrap{
+    display:flex;
+    background-color: #fafafa;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 580px;
+    margin-bottom: 10px;
+    padding-right: 12%;
+    overflow: hidden;
+}
+.text{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-title{
+    font-size: 27px;
+    padding-top: 15px;
+}
+.white{
+    color: white;
+}
+.sub-2-title{
+    color:#ccc;
+    font-size: 17px;
+    padding-top: 15px;
 }
 
 .footercontainer {
