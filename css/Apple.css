@@ -28,6 +28,10 @@ body{
 .container{
     display:flex;
 }
+.main.container{
+    display:flex;
+    flex-direction: column;
+}
 
 .main.container .iphonex-wrap{
     display:flex;
@@ -237,4 +241,17 @@ li {
 .terms > span {
     padding: 5px;
     border-right: 1px solid #d6d6d6;
+}
+
+.main.container .links{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #6bf;     
+    font-size: 21px; 
+    margin: 9px;        
+}
+.main.container .links div{
+    margin-left: 12px;
+    margin-right: 12px;
 }
