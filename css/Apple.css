@@ -70,6 +70,103 @@ body{
     padding-top: 15px;
 }
 
+
+.featuregrid {
+    font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 1em;
+    grid-column-gap: 1em;
+    grid-auto-rows: 600px;
+}
+
+.headtext {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.subheadtext {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 350;
+}
+
+.moreinfo {
+    color: #6bf;
+}
+
+.music {
+    text-align: center;
+    color: white;
+}
+
+.mimg {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.itlogo {
+    padding-top: 400px;
+}
+
+.musicback {
+    background-image: url(../images/apple_music_large.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.airpods {
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.apimg {
+    padding-top: 50px;
+}
+
+.giveback {
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.givebackback {
+    background-image: url(../images/give_back_large.jpg);
+    background-size: auto;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.homepod {
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.macbookpro {
+    text-align: center;
+    color: white;
+    background-color: #131218;
+}
+
+.mbpback {
+    background-image: url(../images/macbook_pro_performance_large.jpg);
+    background-size: auto;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.ipad {
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.ipadimg {
+    padding-top: 100px;
+}
+
+
 .footercontainer {
     margin-top: 15px;
     background-color: #f2f2f2;
